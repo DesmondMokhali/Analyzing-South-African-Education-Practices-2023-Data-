@@ -1,12 +1,12 @@
 # National_School_Analysis
 
-# Overview
+## Overview
  
-### **Problem Definition**  
+## **Problem Definition**  
 The primary issue in South African public schools, particularly in township and rural areas, is **twofold**:
 
 **1.    Lack of Specialization and Skill Development:**  
-- Most schools do not specialize in areas such as electronics, programming, agricultural sciences,environmental management, basic carpentry, plumbing, engineering, Woodworking, etc.
+- Most schools do not specialize in areas such as electronics, programming,arts and visuals, agricultural sciences,environmental management, basic carpentry, plumbing, engineering, Woodworking, etc.
 - As a result, students graduate without practical skills or the ability to leverage their talents for economic independence.
 - This leads to a workforce that is unprepared for the job market, contributing to high unemployment rates and socio-economic disparities.
   
@@ -22,3 +22,15 @@ The primary issue in South African public schools, particularly in township and 
 **2. Provide Actionable Insights:**
 - Offer data-driven recommendations for decision-makers to prioritize interventions and allocate resources effectively.
 - Suggest strategies to transition schools towards specialized education and improve overall infrastructure.
+
+## **Motivation**
+Many schools in my community lack specialization in crucial fields, leaving our graduates unprepared for the job market. This reality hits close to home, as I see talented students around me struggle to find their footing, contributing to high unemployment rates and socio-economic disparities. I urgently want to conduct a data analysis project to understand and address these gaps, so we can recommend actionable solutions that equip our youth with valuable skills, reduce unemployment, and foster a thriving, self-sufficient community.
+
+
+
+
+
+
+
+
+
