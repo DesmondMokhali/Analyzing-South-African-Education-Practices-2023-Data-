@@ -58,13 +58,23 @@ Our exploratory data analysis focused on South African public schools, particula
 
 - **Significant variation** in the number of learners (0 to 3,233) and educators (0 to 372) per school, with **average** counts of 542 learners and 19 educators **(28:1)**, respectively.
 
+![School Size Distribution (Learners and Educators)](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/69a04d4a-4a36-471b-85aa-5665b928f827)
+School Size Distribution (Learners and Educators)
+
+
 **Population Across Provinces:**
 
 - **Average** provincial population is 6,820,463, with considerable **variation** (1,294,044 to 16,266,595).
 
+![Regional Population Distribution](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/1d0326e3-a9e0-4cd0-9893-c698451f183a)
+
+
 **Income Sources:**
 
 - **Salaries/wages/commission** are the primary income source (51%), followed by **grants** (30%).
+
+![Income Source Composition](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/4c901228-0897-4c40-9bcd-8030ab334bbe)
+
 
 **Employment Status:**
 
@@ -74,13 +84,21 @@ Our exploratory data analysis focused on South African public schools, particula
 
 - **High completion rate** of **Grade 12 - Standard 10 - NQF4**, but steep **decline** in **higher education** attainment.
 
+![Highest Education Level](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a6356e29-efaf-4fa5-99c9-b6303b79d9a6)
+
+
 **Infrastructure Access:**
 
 - **Significant digital divide**, with urban areas having much higher access to internet libraries, desktops/laptops, and electricity compared to traditional and farm settings.
+  
+![Infrastructure Access by Geography Type](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/f8ce0ffd-b072-4f2b-ae40-c742ee43803a)
 
 **Commute Times:**
 
 - **Most students** commute **within 31-60 minutes**, with **urban areas** showing a **broader range** of commute durations.
+
+  ![Time Taken to School by Geography Type](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/dda4de97-8ca3-4bbe-9fc8-133811a399a7)
+
 
 
 
