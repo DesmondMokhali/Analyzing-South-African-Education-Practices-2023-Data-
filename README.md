@@ -113,22 +113,48 @@ School Size Distribution (Learners and Educators)
 
 ### **4.1 Lack of Specialization and Skill Development**
 
-(i) Population  
-(ii) Provincial Population Breakdown by Age Group  
-(iii) Visualizing Specialization Distribution Across Provinces  
-(iv) Household Income in Provinces: Population Distribution by Main Source  
-(v) Understanding South Africa's Unemployment Landscape by Province  
+(i) Provincial Population Breakdown by Age Group  
+![Provincial Population Breakdown by Age Group](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/6dbb9928-29db-4e2e-b181-41299c22cf71)
 
-### **4.2 Poor Infrastructure**  
 
-(i) Distribution of Schools Across South African Provinces  
-(ii) Provincial Breakdown: Learners, Educators, and Schools (Percentage)  
-(iii) Public vs. Independent: A Provincial Analysis of Student-Teacher Ratios  
-(iv) Provincial Landscape: Proportion of Independent vs. Public Schools  
-(v) Understanding Provincial School Resources: A Look at Quintile Distribution  
-(vi) Provincial Breakdown: Urban vs. Rural Schools  
-(vii) Distance and Education Access: A Look at Urban vs. Rural Student Travel Times  
-(iix) Understanding Provincial Variations in Infrastructure Availability  
+(ii) Visualizing Specialization Distribution Across Provinces  
+
+![Specialization Distribution Across Provinces](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/2f7e33e4-beb4-4769-aea7-852341586a90)
+
+
+(iii) Household Income in Provinces: Population Distribution by Main Source  
+
+![Population Distribution by Main Source](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/773a9d9f-24a1-434a-a98f-4c055005b308)
+
+(iv) Understanding South Africa's Unemployment Landscape by Province  
+
+![Unemployment Landscape by Province](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/bb523c51-cf24-456c-a0d1-bbdcb122c46b)
+
+
+### **4.2 Infrastructure**  
+
+(i) Provincial Breakdown: Urban vs. Rural Schools  
+
+![Urban vs  Rural Distribution](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a86d55da-22c7-4d3c-a210-d243e5b1d407)
+
+(ii) Provincial Breakdown: Learners, Educators, and Schools (Percentage)
+
+![Learners, Educators, and Schools (Percentage)](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/ddffc6cb-34ff-4b5f-888e-d58bbf258041)
+
+
+(iii) Distance and Education Access: A Look at Urban vs. Rural Student Travel Times  
+
+![Urban vs  Rural Student Travel Times](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a64948db-07d5-45b4-b797-a0e721ccf8e1)
+
+
+
+(iv) Understanding Provincial Variations in Infrastructure Availability  
+
+
+![Provincial Variations in Infrastructure Availability](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/94ae215d-4564-480d-bd1e-d6975b93a3bf)
+
+
+![Provincial Deficits in Basic Infrastructure Access](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/db1d6600-ffb5-4748-a634-58693bb840f3)
 
 
 ## **5. Insights to be Derived:**  
