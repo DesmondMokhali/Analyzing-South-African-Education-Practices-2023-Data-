@@ -54,7 +54,15 @@ Our exploratory data analysis focused on South African public schools, particula
 
 **Findings include:**
 
-**Learner and Educator Distribution:**
+### **School Distribution:**
+
+- The data suggests a potential **imbalance** in school distribution, with a **higher** concentration in lower economic quintiles (Q1 & Q2) compared to wealthier ones (Q4 & Q5).
+- Availability of specialized schools (technical, comprehensive) appears **limited**, potentially restricting access to diverse career paths.
+
+  ![Economic Quintile vs  Specialization](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/cbd1bb93-fe64-4734-9792-6c4a478a07e5)
+Economic Quintile vs. Specialization
+
+###  **Learner and Educator Distribution:**
 
 - **Significant variation** in the number of learners (0 to 3,233) and educators (0 to 372) per school, with **average** counts of 542 learners and 19 educators **(28:1)**, respectively.
 
@@ -62,38 +70,38 @@ Our exploratory data analysis focused on South African public schools, particula
 School Size Distribution (Learners and Educators)
 
 
-**Population Across Provinces:**
+###  **Population Across Provinces:**
 
 - **Average** provincial population is 6,820,463, with considerable **variation** (1,294,044 to 16,266,595).
 
 ![Regional Population Distribution](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/1d0326e3-a9e0-4cd0-9893-c698451f183a)
 
 
-**Income Sources:**
+###  **Income Sources:**
 
 - **Salaries/wages/commission** are the primary income source (51%), followed by **grants** (30%).
 
 ![Income Source Composition](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/4c901228-0897-4c40-9bcd-8030ab334bbe)
 
 
-**Employment Status:**
+###  **Employment Status:**
 
 - **Wide** regional disparities in employment, with **averages** of 1,941,827 **employed**, 997,709 **unemployed**, and 1,930,693 **not economically** active individuals.
 
-**Educational Attainment:**
+###  **Educational Attainment:**
 
 - **High completion rate** of **Grade 12 - Standard 10 - NQF4**, but steep **decline** in **higher education** attainment.
 
 ![Highest Education Level](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a6356e29-efaf-4fa5-99c9-b6303b79d9a6)
 
 
-**Infrastructure Access:**
+###  **Infrastructure Access:**
 
 - **Significant digital divide**, with urban areas having much higher access to internet libraries, desktops/laptops, and electricity compared to traditional and farm settings.
   
 ![Infrastructure Access by Geography Type](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/f8ce0ffd-b072-4f2b-ae40-c742ee43803a)
 
-**Commute Times:**
+###  **Commute Times:**
 
 - **Most students** commute **within 31-60 minutes**, with **urban areas** showing a **broader range** of commute durations.
 
