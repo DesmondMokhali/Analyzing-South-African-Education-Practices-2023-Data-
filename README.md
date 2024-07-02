@@ -108,7 +108,49 @@ School Size Distribution (Learners and Educators)
   ![Time Taken to School by Geography Type](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/dda4de97-8ca3-4bbe-9fc8-133811a399a7)
 
 
+## **4. In-Depth Analysis**  
+
+### **4.1 Lack of Specialization and Skill Development**
+
+(i) Population  
+(ii) Provincial Population Breakdown by Age Group  
+(iii) Visualizing Specialization Distribution Across Provinces  
+(iv) Household Income in Provinces: Population Distribution by Main Source  
+(v) Understanding South Africa's Unemployment Landscape by Province  
+
+### **4.2 Poor Infrastructure**  
+
+(i) Distribution of Schools Across South African Provinces  
+(ii) Provincial Breakdown: Learners, Educators, and Schools (Percentage)  
+(iii) Public vs. Independent: A Provincial Analysis of Student-Teacher Ratios  
+(iv) Provincial Landscape: Proportion of Independent vs. Public Schools  
+(v) Understanding Provincial School Resources: A Look at Quintile Distribution  
+(vi) Provincial Breakdown: Urban vs. Rural Schools  
+(vii) Distance and Education Access: A Look at Urban vs. Rural Student Travel Times  
+(iix) Understanding Provincial Variations in Infrastructure Availability  
 
 
+## **5. Insights to be Derived:**  
 
+### **Specialization Gaps:**  
 
+**Gauteng, Western Cape:** Likely to have a higher concentration of skilled workers due to better access to education and technology.  
+ 
+**Eastern Cape, Limpopo, Mpumalanga, North West, Northern Cape:** May have a shortage of skilled workers due to lower levels of education and technology access.  
+ 
+### **Infrastructure Gaps:**  
+
+**Gauteng:** High levels of internet and library access, desktop/laptop ownership, and electricity access indicate a well-developed infrastructure.  
+  
+**Western Cape:** Similar to Gauteng, indicating a developed infrastructure.  
+  
+**Northern Cape:** Lowest levels of internet and library access, desktop/
+laptop ownership, and electricity access, indicating significant infrastructure gaps.  
+  
+**Mpumalanga, Eastern Cape, Limpopo, North West:** These provinces also show lower levels of infrastructure access compared to Gauteng and Western Cape, indicating potential gap  
+  
+
+### **Geographical Disparities:**  
+**Northern Cape:** Stands out as the province with the most significant disparities in infrastructure access compared to other provinces.  
+
+**Mpumalanga, Eastern Cape, Limpopo, North West:** Also show disparities, albeit to a lesser extent than Northern Cape.  
