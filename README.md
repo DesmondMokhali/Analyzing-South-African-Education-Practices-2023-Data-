@@ -177,7 +177,4 @@ laptop ownership, and electricity access, indicating significant infrastructure 
 **Mpumalanga, Eastern Cape, Limpopo, North West:** These provinces also show lower levels of infrastructure access compared to Gauteng and Western Cape, indicating potential gap  
   
 
-### **Geographical Disparities:**  
-**Northern Cape:** Stands out as the province with the most significant disparities in infrastructure access compared to other provinces.  
 
-**Mpumalanga, Eastern Cape, Limpopo, North West:** Also show disparities, albeit to a lesser extent than Northern Cape.  
