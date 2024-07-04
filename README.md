@@ -115,47 +115,51 @@ School Size Distribution (Learners and Educators)
 
 (i) Provincial Population Breakdown by Age Group  
 ![Provincial Population Breakdown by Age Group](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/6dbb9928-29db-4e2e-b181-41299c22cf71)
-
+- The chart reveals a youthful population concentrated in Limpopo and Mpumalanga, while Western Cape and Gauteng hold the largest working-age populations, potentially impacting future education needs and workforce distribution.
 
 (ii) Visualizing Specialization Distribution Across Provinces  
 
 ![Specialization Distribution Across Provinces](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/2f7e33e4-beb4-4769-aea7-852341586a90)
-
+- The distribution of schools in South Africa highlights a focus on basic education in KZN and EC, while NW and EC prioritize comprehensive and specialized education potentially aligned with regional economic needs.
 
 (iii) Household Income in Provinces: Population Distribution by Main Source  
 
 ![Population Distribution by Main Source](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/773a9d9f-24a1-434a-a98f-4c055005b308)
-
+- Gauteng and Western Cape lead in formal employment, while Eastern Cape, KwaZulu-Natal, and Limpopo show a higher reliance on government grants.
+- Mpumalanga and Northern Cape have more balanced income sources, with significant contributions from business activities and farming in the latter.
+    
 (iv) Understanding South Africa's Unemployment Landscape by Province  
 
 ![Unemployment Landscape by Province](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/bb523c51-cf24-456c-a0d1-bbdcb122c46b)
-
+- Unemployment rates vary significantly across provinces, with Mpumalanga, KwaZulu-Natal, Eastern Cape, and North West exceeding 30%, while Western Cape fares better.
+- Mpumalanga faces the most concerning situation with an unemployment rate of 41%, whereas Western Cape enjoys the lowest rate at 21%
 
 ### **4.2 Infrastructure**  
 
 (i) Provincial Breakdown: Urban vs. Rural Schools  
 
 ![Urban vs  Rural Distribution](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a86d55da-22c7-4d3c-a210-d243e5b1d407)
+- While KZN, Eastern Cape, and Limpopo have more schools in rural areas, Gauteng, Free State, and Western Cape likely have a higher concentration in urban areas. Data is missing for Mpumalanga and North West.
 
 (ii) Provincial Breakdown: Learners, Educators, and Schools (Percentage)
 
 ![Learners, Educators, and Schools (Percentage)](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/ddffc6cb-34ff-4b5f-888e-d58bbf258041)
-
+- The distribution of schools and educators varies across provinces, with Gauteng having larger, more populated schools and KwaZulu-Natal boasting a wider network of smaller schools. Learner-to-educator ratios suggest potential overcrowding in Gauteng and a more balanced distribution in Western Cape.
 
 (iii) Distance and Education Access: A Look at Urban vs. Rural Student Travel Times  
 
 ![Urban vs  Rural Student Travel Times](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a64948db-07d5-45b4-b797-a0e721ccf8e1)
-
+- Urban students tend to have shorter commutes compared to rural students, with Gauteng boasting the highest percentage of students with commutes under 30 minutes. While long commutes are uncommon overall, rural areas see a higher prevalence of moderate commutes (30-60 minutes).
+  
+- This suggests location plays a significant role in student travel times, potentially impacting access to education in some rural areas.
 
 
 (iv) Understanding Provincial Variations in Infrastructure Availability  
 
-
 ![Provincial Variations in Infrastructure Availability](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/94ae215d-4564-480d-bd1e-d6975b93a3bf)
 
-
 ![Provincial Deficits in Basic Infrastructure Access](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/db1d6600-ffb5-4748-a634-58693bb840f3)
-
+- Vast disparities exist between provinces in internet access (highest: Gauteng, lowest: Eastern Cape) and laptop ownership (highest: Western Cape, lowest: Mpumalanga). Electricity access is more uniform, but still uneven (highest: Gauteng, lowest: Eastern Cape). 
 
 ## **5. Insights to be Derived:**  
 
