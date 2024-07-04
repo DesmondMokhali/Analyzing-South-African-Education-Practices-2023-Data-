@@ -1,6 +1,8 @@
 # Unlocking Potential: Analyzing South African Education Practices (2023 Data)
 ## Insights from School and Household Surveys
 
+![education (2)](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/e4ecbccb-58fe-497c-9a87-a15d31ec0fe9)
+
 # 1. Overview
  
 ## **Problem Definition**  
