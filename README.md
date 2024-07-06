@@ -29,7 +29,48 @@ The primary issue in South African public schools, particularly in township and 
 ## **Motivation**
 Many schools in my community lack specialization in crucial fields, leaving our graduates unprepared for the job market. This reality hits close to home, as I see talented students around me struggle to find their footing, contributing to high unemployment rates and socio-economic disparities. I urgently want to conduct a data analysis project to understand and address these gaps, so we can recommend actionable solutions that equip our youth with valuable skills, reduce unemployment, and foster a thriving, self-sufficient community.
 
-# 2. Data
+# 2. Data Understanding and Preparation  
+This section details the process of transforming raw data from multiple sources into a clean and structured format ready for analysis.  
+###  **2.1 Data Collection**  
+Data for this project was sourced from two primary datasets:
+1.	**ECD Masterlist Data, Quarter 3 of 2023 (Department of Basic Education, South Africa)**  
+ 	- **Source:** Official government website (https://www.education.gov.za/Programmes/EMIS/EMISDownloads.aspx.).  
+ 	- **Processing:**  
+      - Removed unnecessary details such as IDs, payroll data, specific location data, historical information, and unclear fields.  
+      - Retained essential data including school identification, location (province, city, etc.), type, status, and enrollment information (learners, educators).
+
+2.	**General Household Survey 2022 (Statistics South Africa)**  
+	- **Source:** SuperWEB2 platform (https://superweb.statssa.gov.za/webapi/jsf/login.xhtml).  
+	- **Processing:**  
+   	   - Condensed age group data from specific ranges (e.g., 00-04 years) into broader categories (e.g., 0-4 years) for enhanced analysis.  
+	    - Removed duplicates and simplified categories such as "young adult" and "elderly" for clarity.  
+  
+**2.2 Data Cleaning**  
+Initial data cleaning was performed in Microsoft Excel to ensure consistency and accuracy. Key steps included:  
+   - Converting downloaded data from CSV to Excel format.  
+   - Removing irrelevant columns to streamline the dataset.  
+   - Using Power Query Editor to merge related sheets for improved organization.  
+
+**2.3 Advanced Cleaning**
+The advanced data cleaning stage involved more sophisticated techniques to further refine the datasets, ensuring they were ready for in-depth analysis. This stage included:
+- **Standardizing Data Formats:** Ensured uniformity in date formats, text cases, and numerical precision.
+- **Handling Missing Values:** Applied imputation methods and, where necessary, removed rows or columns with excessive missing data.
+  
+**2.4 Data Integration**
+Data from the two primary sources were integrated to create a comprehensive dataset. This involved:
+- **Data Matching:** Identified and merged records from the ECD Masterlist and the General Household Survey that referred to the same entities.
+- **Consolidation of Datasets:** Combined datasets to form a unified dataset, ensuring that all necessary variables were included and correctly aligned.
+  
+**2.5 Data Validation**
+The final dataset was subjected to rigorous validation checks to ensure its reliability and accuracy:  
+- **Consistency Checks:** Verified that data was consistent across different sources and formats.   
+- **Accuracy Verification:** Cross-checked a sample of the data against original sources to ensure accuracy.  
+- **Completeness Assessment:** Ensured that the dataset was complete with no missing critical information.  
+  
+**Tools Used:** Web Browsers, Python (pandas, NumPy), Microsoft Excel
+  
+By meticulously preparing the data through these stages, we ensured a robust foundation for subsequent analysis, enabling accurate and meaningful insights to be drawn from the data.
+
 
 # 3. Exploratory Data Analysis (EDA)
 
