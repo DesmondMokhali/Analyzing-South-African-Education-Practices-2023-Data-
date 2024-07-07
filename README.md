@@ -229,8 +229,11 @@ The data presented highlights the crucial need for specialized education and imp
 
 - **Gauteng** has the highest learner-to-educator ratio. While this could be due to **larger schools**, it can also indicate **overcrowded classrooms** and potentially less individualized attention for students.
 
-### **5. Addressing the Issues:**
-
+### **5. Limitations:**
+- Limited scope of available data on specialized school outcomes and their direct impact on regional employment rates.
+- Incomplete data on school facilities and resources across all provinces.
+     
+### **6. Recommendations:**
 - **Invest in Needs Assessment:** Conduct research to identify the specific skills required in each province's job market. Align specialized schools and curriculum development with these findings.
   
 - **Improve Data Collection:** Ensure clear categorization of schools based on specializations. This transparency allows for targeted interventions and resource allocation.
@@ -238,10 +241,6 @@ The data presented highlights the crucial need for specialized education and imp
 - **Bridge the Digital Divide:** Expand internet access and provide laptops or tablets to students in under-resourced areas. Prioritize solar or alternative energy solutions where electricity access remains a challenge.
   
 - **Upgrade Infrastructure:** Reduce overcrowding by building new schools or expanding existing ones. Prioritize basic amenities like proper sanitation and ensure schools are in good repair to create a conducive learning environment.
-  
-### **6. Limitations:**
-     
-### **7. Recommendations:**
 
 # 6. Conclusion
   
