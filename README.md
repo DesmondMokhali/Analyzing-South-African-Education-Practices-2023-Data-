@@ -239,9 +239,14 @@ The data presented highlights the crucial need for specialized education and imp
   
 - **Upgrade Infrastructure:** Reduce overcrowding by building new schools or expanding existing ones. Prioritize basic amenities like proper sanitation and ensure schools are in good repair to create a conducive learning environment.
   
-**Conclusion:**
+### **6. Limitations:**
+     
+### **7. Recommendations:**
 
-By focusing on specialized education, improving infrastructure, and bridging the digital divide, South Africa can create a more equitable and effective public school system. This will equip students with the skills they need to succeed in the workplace and contribute to the country's economic growth.
+# 6. Conclusion
   
+### **Summary:** 
+
+### **Future Work:** 
 
 
