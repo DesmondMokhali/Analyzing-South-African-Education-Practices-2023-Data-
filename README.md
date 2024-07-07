@@ -9,13 +9,14 @@
 The primary issue in South African public schools, particularly in township and rural areas, is **twofold**:
 
 **1.    Lack of Specialization and Skill Development:**  
-- Most schools do not specialize in areas such as electronics, programming,arts and visuals, agricultural sciences,environmental management, basic carpentry, plumbing, engineering, Woodworking, etc.
+- Most schools do not specialize in areas such as electronics, programming, arts and visuals, agricultural sciences, environmental management, basic carpentry, plumbing, engineering, Woodworking, etc.
 - As a result, students graduate without practical skills or the ability to leverage their talents for economic independence.
 - This leads to a workforce that is unprepared for the job market, contributing to high unemployment rates and socio-economic disparities.
   
 **2.    Poor Infrastructure:**
-- Many schools suffer from inadequate infrastructure, including unreliable water supply, pit toilets, and inconsistent electricity access.
-- Poor infrastructure hampers effective teaching and learning, further exacerbating the skills gap and limiting students' future opportunities.
+- Many schools lack basic necessities like reliable water, proper sanitation, consistent electricity, and sufficient computers with internet access. 
+- This inadequate infrastructure significantly hampers effective teaching and learning.
+- Students struggle to access information, utilize online resources, and develop the crucial 21st-century skills needed for the 4th Industrial Revolution (4IR) – skills that are fundamental for success in today's job market. This widens the skills gap and restricts students' future opportunities.
 
 ## **Objectives**  
   
