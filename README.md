@@ -30,6 +30,33 @@ The primary issue in South African public schools, particularly in township and 
 ## **Motivation**
 Many schools in my community lack specialization in crucial fields, leaving our graduates unprepared for the job market. This reality hits close to home, as I see talented students around me struggle to find their footing, contributing to high unemployment rates and socio-economic disparities. I urgently want to conduct a data analysis project to understand and address these gaps, so we can recommend actionable solutions that equip our youth with valuable skills, reduce unemployment, and foster a thriving, self-sufficient community.
 
+## **Insights**  
+
+**Critical Need for Specialized Education and Improved Infrastructure in South African Public Schools**
+
+The data presented highlights the crucial need for specialized education and improved infrastructure in South African public schools. Here's a closer look at the evidence:
+
+### **1. Mismatch Between Skills and Regional Needs:**
+
+**High Number of Ordinary Schools:**
+- Provinces like **KwaZulu-Natal** and **Eastern Cape** have the most ordinary schools. While foundational education is essential, it doesn't necessarily equip students with skills directly relevant to the regional economy.
+  
+**Uneven Distribution of Specialized Schools:**
+- **Eastern Cape** leads in agricultural and technical schools, aligning with its economic activities. However, the picture is less clear for other provinces. **Mpumalanga** has the most full-service and Dinaledi schools (purpose unclear), while **Western Cape** has the most schools with unknown specializations. This indicates a lack of focus on specific industries in some regions and potential data collection issues.
+
+### **2. High Unemployment Rates:**
+  
+- **Mpumalanga** (41%) and **KwaZulu-Natal** with a heavy reliance on grants, show the highest unemployment rates. This suggests a skills gap between the education system's output and the needs of the labor market.  
+  
+### **3. The Digital Divide:**
+  
+- **Gauteng** boasts the highest internet access (36.24%) and laptop ownership (37.88%), while **Eastern Cape** (1.15% & 14.45%) and **Limpopo** (0.74% & 17.54%) have the lowest. This digital divide hinders access to information, online learning resources, and **21st-century skills development**, crucial for employability in the modern world.
+
+### **4. Learner-Educator Ratios:**
+
+- **Gauteng** has the highest learner-to-educator ratio. While this could be due to **larger schools**, it can also indicate **overcrowded classrooms** and potentially less individualized attention for students.
+
+     
 # 2. Data Understanding and Preparation  
 This section details the process of transforming raw data from multiple sources into a clean and structured format ready for analysis.  
 ###  **2.1 Data Collection**  
@@ -43,9 +70,8 @@ Data for this project was sourced from two primary datasets:
 2.	**General Household Survey 2022 (Statistics South Africa)**  
 	- **Source:** SuperWEB2 platform (https://superweb.statssa.gov.za/webapi/jsf/login.xhtml).  
 	- **Processing:**  
-   	   - Condensed age group data from specific ranges (e.g., 00-04 years) into broader categories (e.g., 0-4 years) for enhanced analysis.  
-	    - Removed duplicates and simplified categories such as "young adult" and "elderly" for clarity.  
-  
+   	   - Condensed age group data from specific ranges (e.g., 05-09, 10-14, 15-19, 20-24 years) into broader categories (e.g., 05-24 years) for enhanced analysis.  
+	    
 **2.2 Data Cleaning**  
 Initial data cleaning was performed in Microsoft Excel to ensure consistency and accuracy. Key steps included:  
    - Converting downloaded data from CSV to Excel format.  
@@ -59,7 +85,6 @@ The advanced data cleaning stage involved more sophisticated techniques to furth
   
 **2.4 Data Integration**
 Data from the two primary sources were integrated to create a comprehensive dataset. This involved:
-- **Data Matching:** Identified and merged records from the ECD Masterlist and the General Household Survey that referred to the same entities.
 - **Consolidation of Datasets:** Combined datasets to form a unified dataset, ensuring that all necessary variables were included and correctly aligned.
   
 **2.5 Data Validation**
@@ -70,8 +95,7 @@ The final dataset was subjected to rigorous validation checks to ensure its reli
   
 **Tools Used:** Web Browsers, Python (pandas, NumPy), Microsoft Excel
   
-By meticulously preparing the data through these stages, we ensured a robust foundation for subsequent analysis, enabling accurate and meaningful insights to be drawn from the data.
-
+By meticulously preparing the data through these stages, I ensured a robust foundation for subsequent analysis, enabling accurate and meaningful insights to be drawn from the data.
 
 # 3. Exploratory Data Analysis (EDA)
 
@@ -90,7 +114,7 @@ Explore relationships between variables, such as Economic Quintile and Specializ
 **3.5 Comparative Analysis:**  
 Conduct comparative analyses to draw meaningful insights.  
   
-Use charts and graphs to visualize data, facilitating the identification of patterns and trends.
+Used charts and graphs to visualize data, facilitating the identification of patterns and trends.
 
 
 ## **Summary**  
@@ -99,15 +123,7 @@ Our exploratory data analysis focused on South African public schools, particula
 
 **Findings include:**
 
-### **School Distribution:**
-
-- The data suggests a potential **imbalance** in school distribution, with a **higher** concentration in lower economic quintiles (Q1 & Q2) compared to wealthier ones (Q4 & Q5).
-- Availability of specialized schools (technical, comprehensive) appears **limited**, potentially restricting access to diverse career paths.
-
-  ![Economic Quintile vs  Specialization](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/cbd1bb93-fe64-4734-9792-6c4a478a07e5)
-Economic Quintile vs. Specialization
-
-###  **Learner and Educator Distribution:**
+### 1. **Learner and Educator Distribution:**
 
 - **Significant variation** in the number of learners (0 to 3,233) and educators (0 to 372) per school, with **average** counts of 542 learners and 19 educators **(28:1)**, respectively.
 
@@ -115,38 +131,47 @@ Economic Quintile vs. Specialization
 School Size Distribution (Learners and Educators)
 
 
-###  **Population Across Provinces:**
+### 2. **School Distribution:**
+
+- The data suggests a potential **imbalance** in school distribution, with a **higher** concentration in lower economic quintiles (Q1 & Q2) compared to wealthier ones (Q4 & Q5).
+- Availability of specialized schools (technical, comprehensive) appears **limited**, potentially restricting access to diverse career paths.
+
+  ![Economic Quintile vs  Specialization](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/cbd1bb93-fe64-4734-9792-6c4a478a07e5)
+Economic Quintile vs. Specialization
+
+
+### 3.  **Population Across Provinces:**
 
 - **Average** provincial population is 6,820,463, with considerable **variation** (1,294,044 to 16,266,595).
 
 ![Regional Population Distribution](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/1d0326e3-a9e0-4cd0-9893-c698451f183a)
 
 
-###  **Income Sources:**
+### 4. **Income Sources:**
 
 - **Salaries/wages/commission** are the primary income source (51%), followed by **grants** (30%).
 
 ![Income Source Composition](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/4c901228-0897-4c40-9bcd-8030ab334bbe)
 
 
-###  **Employment Status:**
+### 5. **Employment Status:**
 
 - **Wide** regional disparities in employment, with **averages** of 1,941,827 **employed**, 997,709 **unemployed**, and 1,930,693 **not economically** active individuals.
 
-###  **Educational Attainment:**
+### 6. **Educational Attainment:**
 
 - **High completion rate** of **Grade 12 - Standard 10 - NQF4**, but steep **decline** in **higher education** attainment.
 
 ![Highest Education Level](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a6356e29-efaf-4fa5-99c9-b6303b79d9a6)
 
 
-###  **Infrastructure Access:**
+### 7. **Infrastructure Access:**
 
 - **Significant digital divide**, with urban areas having much higher access to internet libraries, desktops/laptops, and electricity compared to traditional and farm settings.
   
 ![Infrastructure Access by Geography Type](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/f8ce0ffd-b072-4f2b-ae40-c742ee43803a)
 
-###  **Commute Times:**
+### 8. **Commute Times:**
 
 - **Most students** commute **within 31-60 minutes**, with **urban areas** showing a **broader range** of commute durations.
 
@@ -157,81 +182,62 @@ School Size Distribution (Learners and Educators)
 
 ### **4.1 Lack of Specialization and Skill Development**
 
-(i) Provincial Population Breakdown by Age Group  
-![Provincial Population Breakdown by Age Group](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/6dbb9928-29db-4e2e-b181-41299c22cf71)
+#### (i) Provincial Population Breakdown by Age Group 
 - The chart reveals a youthful population concentrated in Limpopo and Mpumalanga, while Western Cape and Gauteng hold the largest working-age populations, potentially impacting future education needs and workforce distribution.
 
-(ii) Visualizing Specialization Distribution Across Provinces  
+![Provincial Population Breakdown by Age Group](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/6dbb9928-29db-4e2e-b181-41299c22cf71)
 
-![Specialization Distribution Across Provinces](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/2f7e33e4-beb4-4769-aea7-852341586a90)
+
+#### (ii) Visualizing Specialization Distribution Across Provinces  
 - The distribution of schools in South Africa highlights a focus on basic education in KZN and EC, while NW and EC prioritize comprehensive and specialized education potentially aligned with regional economic needs.
+![Specialization Distribution Across Provinces](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/2f7e33e4-beb4-4769-aea7-852341586a90)
 
-(iii) Household Income in Provinces: Population Distribution by Main Source  
 
-![Population Distribution by Main Source](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/773a9d9f-24a1-434a-a98f-4c055005b308)
+#### (iii) Household Income in Provinces: Population Distribution by Main Source  
 - Gauteng and Western Cape lead in formal employment, while Eastern Cape, KwaZulu-Natal, and Limpopo show a higher reliance on government grants.
 - Mpumalanga and Northern Cape have more balanced income sources, with significant contributions from business activities and farming in the latter.
-    
-(iv) Understanding South Africa's Unemployment Landscape by Province  
 
-![Unemployment Landscape by Province](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/bb523c51-cf24-456c-a0d1-bbdcb122c46b)
+![Population Distribution by Main Source](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/773a9d9f-24a1-434a-a98f-4c055005b308)
+
+    
+#### (iv) Understanding South Africa's Unemployment Landscape by Province  
 - Unemployment rates vary significantly across provinces, with Mpumalanga, KwaZulu-Natal, Eastern Cape, and North West exceeding 30%, while Western Cape fares better.
 - Mpumalanga faces the most concerning situation with an unemployment rate of 41%, whereas Western Cape enjoys the lowest rate at 21%
+  
+![Unemployment Landscape by Province](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/bb523c51-cf24-456c-a0d1-bbdcb122c46b)
+
 
 ### **4.2 Infrastructure**  
 
-(i) Provincial Breakdown: Urban vs. Rural Schools  
-
-![Urban vs  Rural Distribution](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a86d55da-22c7-4d3c-a210-d243e5b1d407)
+#### (i) Provincial Breakdown: Urban vs. Rural Schools  
 - While KZN, Eastern Cape, and Limpopo have more schools in rural areas, Gauteng, Free State, and Western Cape likely have a higher concentration in urban areas. Data is missing for Mpumalanga and North West.
+![Urban vs  Rural Distribution](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a86d55da-22c7-4d3c-a210-d243e5b1d407)
 
-(ii) Provincial Breakdown: Learners, Educators, and Schools (Percentage)
 
-![Learners, Educators, and Schools (Percentage)](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/ddffc6cb-34ff-4b5f-888e-d58bbf258041)
+#### (ii) Provincial Breakdown: Learners, Educators, and Schools (Percentage)
 - The distribution of schools and educators varies across provinces, with Gauteng having larger, more populated schools and KwaZulu-Natal boasting a wider network of smaller schools. Learner-to-educator ratios suggest potential overcrowding in Gauteng and a more balanced distribution in Western Cape.
 
-(iii) Distance and Education Access: A Look at Urban vs. Rural Student Travel Times  
+![Learners, Educators, and Schools (Percentage)](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/ddffc6cb-34ff-4b5f-888e-d58bbf258041)
 
-![Urban vs  Rural Student Travel Times](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a64948db-07d5-45b4-b797-a0e721ccf8e1)
+#### (iii) Distance and Education Access: A Look at Urban vs. Rural Student Travel Times  
 - Urban students tend to have shorter commutes compared to rural students, with Gauteng boasting the highest percentage of students with commutes under 30 minutes. While long commutes are uncommon overall, rural areas see a higher prevalence of moderate commutes (30-60 minutes).
   
 - This suggests location plays a significant role in student travel times, potentially impacting access to education in some rural areas.
+  
+![Urban vs  Rural Student Travel Times](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/a64948db-07d5-45b4-b797-a0e721ccf8e1)
 
 
-(iv) Understanding Provincial Variations in Infrastructure Availability  
 
+#### (iv) Understanding Provincial Variations in Infrastructure Availability  
+- Vast disparities exist between provinces in internet access (highest: Gauteng, lowest: Eastern Cape) and laptop ownership (highest: Western Cape, lowest: Mpumalanga). Electricity access is more uniform, but still uneven (highest: Gauteng, lowest: Eastern Cape).
 ![Provincial Variations in Infrastructure Availability](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/94ae215d-4564-480d-bd1e-d6975b93a3bf)
 
 ![Provincial Deficits in Basic Infrastructure Access](https://github.com/DesmondMokhali/National_School_Analysis/assets/121891418/db1d6600-ffb5-4748-a634-58693bb840f3)
-- Vast disparities exist between provinces in internet access (highest: Gauteng, lowest: Eastern Cape) and laptop ownership (highest: Western Cape, lowest: Mpumalanga). Electricity access is more uniform, but still uneven (highest: Gauteng, lowest: Eastern Cape). 
 
-## **5. Insights to be Derived:**  
 
-**Critical Need for Specialized Education and Improved Infrastructure in South African Public Schools**
+## **5. Conclusion**  
 
-The data presented highlights the crucial need for specialized education and improved infrastructure in South African public schools. Here's a closer look at the evidence:
 
-### **1. Mismatch Between Skills and Regional Needs:**
-
-- **High Number of Ordinary Schools:** Provinces like **KwaZulu-Natal** and **Eastern Cape** have the most ordinary schools. While foundational education is essential, it doesn't necessarily equip students with skills directly relevant to the regional economy.
-  
-- **Uneven Distribution of Specialized Schools:** **Eastern Cape** leads in agricultural and technical schools, aligning with its economic activities. However, the picture is less clear for other provinces. **Mpumalanga** has the most full-service and Dinaledi schools (purpose unclear), while **Western Cape** has the most schools with unknown specializations. This indicates a lack of focus on specific industries in some regions and potential data collection issues.
-
-### **2. High Unemployment Rates:**
-  
-- **Mpumalanga** (41%) and **KwaZulu-Natal** with a heavy reliance on grants, show the highest unemployment rates. This suggests a skills gap between the education system's output and the needs of the labor market.  
-  
-### **3. The Digital Divide:**
-  
-- **Gauteng** boasts the highest internet access (36.24%) and laptop ownership (37.88%), while **Eastern Cape** (1.15% & 14.45%) and **Limpopo** (0.74% & 17.54%) have the lowest. This digital divide hinders access to information, online learning resources, and **21st-century skills development**, crucial for employability in the modern world.
-
-### **4. Learner-Educator Ratios:**
-
-- **Gauteng** has the highest learner-to-educator ratio. While this could be due to **larger schools**, it can also indicate **overcrowded classrooms** and potentially less individualized attention for students.
-
-### **5. Limitations:**
-- Limited scope of available data on specialized school outcomes and their direct impact on regional employment rates.
-- Incomplete data on school facilities and resources across all provinces.
      
 ### **6. Recommendations:**
 - **Invest in Needs Assessment:** Conduct research to identify the specific skills required in each province's job market. Align specialized schools and curriculum development with these findings.
@@ -242,9 +248,9 @@ The data presented highlights the crucial need for specialized education and imp
   
 - **Upgrade Infrastructure:** Reduce overcrowding by building new schools or expanding existing ones. Prioritize basic amenities like proper sanitation and ensure schools are in good repair to create a conducive learning environment.
 
-# 6. Conclusion
+
   
-### **Summary:** 
+
 
 ### **Future Work:** 
 
