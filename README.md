@@ -292,7 +292,7 @@ The analysis highlights significant gaps in the South African public education s
 
 ### **Next Steps:**
   
-**Community Input:** Teachers, principals, learners, parents, and community members can use dedicated Google Forms to share information about their schools.
+**Community Input:** Teachers, principals, learners, parents, and community members can use dedicated Forms to share information about their schools.
   
 **Data Collection:** These contributions will be used to map out the current state of school infrastructure and identify areas needing specialized programs in fields like electronics, programming, arts, agricultural sciences, and more.
     
@@ -314,5 +314,18 @@ The analysis highlights significant gaps in the South African public education s
 **Make a Difference:** Shape the future of South African education by providing impactful data.
     
 **Create a Better Learning Environment:** Together, we can build a brighter future for our schools with improved infrastructure and specialized programs.
+
+
+### **The ARC Platform**
+
+We are building the Academic Resource Center (ARC), a platform specifically designed to house and analyze data from the School Infrastructure Mapping Project. ARC will feature user-friendly, interactive dashboards that provide real-time insights into school conditions, infrastructure needs, and areas where specialized programs would be most beneficial. This platform will be central to our efforts in improving education by offering a comprehensive view and actionable data for policymakers, educators, and communities.
+    
+
+![ARC](https://github.com/user-attachments/assets/df24ce86-5571-41c0-8ef0-730655be615e)
+
+
+![ARC Cont](https://github.com/user-attachments/assets/4200b659-fb57-4abe-b1be-f057150d2ff4)
+
+
 
 
